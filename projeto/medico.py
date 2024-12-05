@@ -1,8 +1,5 @@
-
-from dataclasses import dataclass
-
 from projeto.funcionario import Funcionario
-
+from dataclasses import dataclass
 
 @dataclass
 class Medico(Funcionario):
